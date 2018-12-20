@@ -1,0 +1,35 @@
+body {
+  background-color: black;
+  font-family: 'Courier New';
+}
+
+main {
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+h1, a {
+  color: #707070;
+}
+
+h1 {
+  font-size: 100px;
+}
+
+a {
+  margin-bottom: 10px;
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+.navigation-link {
+  display: block;
+}
+
+#Navigation {
+  text-align: center;
+}
