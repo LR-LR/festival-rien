@@ -1,35 +1,22 @@
 body {
   background-color: black;
+  color: #707070;
   font-family: 'Courier New';
 }
 
 main {
   height: 100vh;
-  display: flex;
-  align-items: center;
-  justify-content: center;
 }
 
-h1, a {
-  color: #707070;
-}
-
-h1 {
+#index-title {
   font-size: 100px;
 }
 
-a {
-  margin-bottom: 10px;
+a, a:hover {
+  color: #707070;
 }
 
 a:hover {
+  opacity: 0.5;
   text-decoration: none;
-}
-
-.navigation-link {
-  display: block;
-}
-
-#Navigation {
-  text-align: center;
 }
