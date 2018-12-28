@@ -1,9 +1,9 @@
 @font-face {
-    font-family: 'Courier New';
-    src: url('../font/cour.ttf');
+  font-family: 'Courier New';
+  src: url('../font/cour.ttf');
 }
 
-body {
+body, .card {
   background-color: black;
   color: #707070;
   font-family: 'Courier New';
@@ -17,11 +17,14 @@ main {
   font-size: 100px;
 }
 
-a, a:hover {
+a, a:hover, .btn-link, .btn-link:hover {
   color: #707070;
 }
 
-a:hover {
-  opacity: 0.5;
+a:hover, .btn-link:hover, .btn-link:focus {
   text-decoration: none;
+}
+
+h2 {
+  font-size: 1.5rem;
 }
