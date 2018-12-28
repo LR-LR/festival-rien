@@ -6,8 +6,8 @@ document.addEventListener("DOMContentLoaded", function(event) {
   let navDay3 = document.getElementById("nav-day-3");
   let navDay4 = document.getElementById("nav-day-4");
   let navDay5 = document.getElementById("nav-day-5");
-  let homeButton = document.getElementById("home-button");
-  let backButton = document.getElementById("back-button");
+  let progNavHomeButton = document.getElementById("prog-nav-home-button");
+  let backButton = document.getElementById("prog-nav-back-button");
 
   // Events
   // navDay1 hover
@@ -17,7 +17,7 @@ document.addEventListener("DOMContentLoaded", function(event) {
     navDay3.style.opacity = "0.2";
     navDay4.style.opacity = "0.2";
     navDay5.style.opacity = "0.2";
-    homeButton.style.opacity = "0.2";
+    progNavHomeButton.style.opacity = "0.2";
     backButton.style.opacity = "0.2";
   }, false);
   navDay1.addEventListener("mouseleave", resetOpacity, false);
@@ -29,7 +29,7 @@ document.addEventListener("DOMContentLoaded", function(event) {
     navDay3.style.opacity = "0.2";
     navDay4.style.opacity = "0.2";
     navDay5.style.opacity = "0.2";
-    homeButton.style.opacity = "0.2";
+    progNavHomeButton.style.opacity = "0.2";
     backButton.style.opacity = "0.2";
   }, false);
   navDay2.addEventListener("mouseleave", resetOpacity, false);
@@ -41,7 +41,7 @@ document.addEventListener("DOMContentLoaded", function(event) {
     navDay3.style.opacity = "1";
     navDay4.style.opacity = "0.2";
     navDay5.style.opacity = "0.2";
-    homeButton.style.opacity = "0.2";
+    progNavHomeButton.style.opacity = "0.2";
     backButton.style.opacity = "0.2";
   }, false);
   navDay3.addEventListener("mouseleave", resetOpacity, false);
@@ -53,7 +53,7 @@ document.addEventListener("DOMContentLoaded", function(event) {
     navDay3.style.opacity = "0.2";
     navDay4.style.opacity = "1";
     navDay5.style.opacity = "0.2";
-    homeButton.style.opacity = "0.2";
+    progNavHomeButton.style.opacity = "0.2";
     backButton.style.opacity = "0.2";
   }, false);
   navDay4.addEventListener("mouseleave", resetOpacity, false);
@@ -65,22 +65,22 @@ document.addEventListener("DOMContentLoaded", function(event) {
     navDay3.style.opacity = "0.2";
     navDay4.style.opacity = "0.2";
     navDay5.style.opacity = "1";
-    homeButton.style.opacity = "0.2";
+    progNavHomeButton.style.opacity = "0.2";
     backButton.style.opacity = "0.2";
   }, false);
   navDay5.addEventListener("mouseleave", resetOpacity, false);
 
-  // homeButton hover
-  homeButton.addEventListener("mouseenter", function(){
+  // progNavHomeButton hover
+  progNavHomeButton.addEventListener("mouseenter", function(){
     navDay1.style.opacity = "0.2";
     navDay2.style.opacity = "0.2";
     navDay3.style.opacity = "0.2";
     navDay4.style.opacity = "0.2";
     navDay5.style.opacity = "0.2";
-    homeButton.style.opacity = "1";
+    progNavHomeButton.style.opacity = "1";
     backButton.style.opacity = "0.2";
   }, false);
-  homeButton.addEventListener("mouseleave", resetOpacity, false);
+  progNavHomeButton.addEventListener("mouseleave", resetOpacity, false);
 
   // backButton hover
   backButton.addEventListener("mouseenter", function(){
@@ -89,7 +89,7 @@ document.addEventListener("DOMContentLoaded", function(event) {
     navDay3.style.opacity = "0.2";
     navDay4.style.opacity = "0.2";
     navDay5.style.opacity = "0.2";
-    homeButton.style.opacity = "0.2";
+    progNavHomeButton.style.opacity = "0.2";
     backButton.style.opacity = "1";
   }, false);
   backButton.addEventListener("mouseleave", resetOpacity, false);
@@ -101,7 +101,7 @@ document.addEventListener("DOMContentLoaded", function(event) {
     navDay3.style.opacity = "inherit";
     navDay4.style.opacity = "inherit";
     navDay5.style.opacity = "inherit";
-    homeButton.style.opacity = "inherit";
+    progNavHomeButton.style.opacity = "inherit";
     backButton.style.opacity = "inherit";
   };
 });
