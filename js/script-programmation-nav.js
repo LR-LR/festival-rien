@@ -1,6 +1,6 @@
-document.addEventListener("DOMContentLoaded", function(event) {
-  // ---------- PROGRAMMATION-NAV.HTML ---------- \\
+'use-strict';
 
+document.addEventListener("DOMContentLoaded", function() {
   // Events
   // navDay1 hover
   navDay1.addEventListener("mouseenter", function() {

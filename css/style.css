@@ -27,10 +27,11 @@ a:hover, .btn-link:hover, .btn-link:focus {
 
 h2, .material-icons {
   font-size: 1rem;
+  line-height: inherit;
 }
 
-.btn button{
-  line-height: normal;
+.btn {
+  vertical-align: inherit;
 }
 
 div .card-header {

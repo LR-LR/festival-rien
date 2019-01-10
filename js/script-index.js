@@ -1,6 +1,6 @@
-document.addEventListener("DOMContentLoaded", function(event) {
-  // ---------- INDEX.HTML ---------- \\
+'use-strict';
 
+document.addEventListener("DOMContentLoaded", function() {
   // Events
   // indexNav1 hover
   indexNav1.addEventListener("mouseenter", function() {
@@ -15,4 +15,5 @@ document.addEventListener("DOMContentLoaded", function(event) {
     indexNav2.style.opacity = "1";
   }, false);
   indexNav2.addEventListener("mouseleave", resetOpacity, false);
-});
+
+}, false);

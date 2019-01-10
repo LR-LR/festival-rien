@@ -1,6 +1,6 @@
-document.addEventListener("DOMContentLoaded", function(event) {
-  // ---------- INFOS.HTML ---------- \\
+'use-strict';
 
+document.addEventListener("DOMContentLoaded", function() {
   // Events
   // HOVERS
   // infosBtn1 hover
@@ -131,4 +131,4 @@ document.addEventListener("DOMContentLoaded", function(event) {
   }, false);
 
   infosBtn72.addEventListener("click", resetDisplay, false);
-});
+}, false);
