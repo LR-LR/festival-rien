@@ -29,8 +29,7 @@ function setTransparency() {
 let navDay1 = document.getElementById("nav-day-1");
 let navDay2 = document.getElementById("nav-day-2");
 let navDay3 = document.getElementById("nav-day-3");
-let navDay4 = document.getElementById("nav-day-4");
-let navDay5 = document.getElementById("nav-day-5");
+let navDay45 = document.getElementById("nav-day-45");
 let progNavHomeButton = document.getElementById("prog-nav-home-button");
 let progNavBackButton = document.getElementById("prog-nav-back-button");
 
@@ -40,8 +39,7 @@ function setTransparency1() {
   navDay1.style.opacity = transparency;
   navDay2.style.opacity = transparency;
   navDay3.style.opacity = transparency;
-  navDay4.style.opacity = transparency;
-  navDay5.style.opacity = transparency;
+  navDay45.style.opacity = transparency;
   progNavHomeButton.style.opacity = transparency;
   progNavBackButton.style.opacity = transparency;
 };
@@ -50,8 +48,7 @@ function resetOpacity1() {
   navDay1.style.opacity = "1";
   navDay2.style.opacity = "1";
   navDay3.style.opacity = "1";
-  navDay4.style.opacity = "1";
-  navDay5.style.opacity = "1";
+  navDay45.style.opacity = "1";
   progNavHomeButton.style.opacity = "1";
   progNavBackButton.style.opacity = "1";
 };

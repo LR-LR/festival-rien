@@ -2,7 +2,7 @@
 
 document.addEventListener("DOMContentLoaded", function() {
   // Events
-  
+
   // navDay1 hover
   navDay1.addEventListener("mouseenter", function() {
     setTransparency1();
@@ -25,18 +25,11 @@ document.addEventListener("DOMContentLoaded", function() {
   navDay3.addEventListener("mouseleave", resetOpacity1, false);
 
   // navDay4 hover
-  navDay4.addEventListener("mouseenter", function() {
+  navDay45.addEventListener("mouseenter", function() {
     setTransparency1();
-    navDay4.style.opacity = "1";
+    navDay45.style.opacity = "1";
   }, false);
-  navDay4.addEventListener("mouseleave", resetOpacity1, false);
-
-  // navDay5 hover
-  navDay5.addEventListener("mouseenter", function() {
-    setTransparency1();
-    navDay5.style.opacity = "1";
-  }, false);
-  navDay5.addEventListener("mouseleave", resetOpacity1, false);
+  navDay45.addEventListener("mouseleave", resetOpacity1, false);
 
   // progNavHomeButton hover
   progNavHomeButton.addEventListener("mouseenter", function() {
