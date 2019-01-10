@@ -2,6 +2,7 @@
 
 document.addEventListener("DOMContentLoaded", function() {
   // Events
+  
   // HOVERS
   // infosBtn1 hover
   infosBtn1.addEventListener("mouseenter", function() {
@@ -70,7 +71,7 @@ document.addEventListener("DOMContentLoaded", function() {
   // infosBtn2 & infosBtn22 click
   infosBtn2.addEventListener("click", function() {
     if (displayCards) {
-      resetDisplay();
+      window.setTimeout(resetDisplay, 300);
       resetOpacity2();
     } else {
       setDisplayNone();
@@ -78,12 +79,14 @@ document.addEventListener("DOMContentLoaded", function() {
     }
   }, false);
 
-  infosBtn22.addEventListener("click", resetDisplay, false);
+  infosBtn22.addEventListener("click", function() {
+    window.setTimeout(resetDisplay, 300);
+  }, false);
 
   // infosBtn3 click
   infosBtn3.addEventListener("click", function() {
     if (displayCards) {
-      resetDisplay();
+      window.setTimeout(resetDisplay, 300);
       resetOpacity2();
     } else {
       setDisplayNone();
@@ -91,12 +94,14 @@ document.addEventListener("DOMContentLoaded", function() {
     }
   }, false);
 
-  infosBtn32.addEventListener("click", resetDisplay, false);
+  infosBtn32.addEventListener("click", function() {
+    window.setTimeout(resetDisplay, 300);
+  }, false);
 
   // infosBtn5 click
   infosBtn5.addEventListener("click", function() {
     if (displayCards) {
-      resetDisplay();
+      window.setTimeout(resetDisplay, 300);
       resetOpacity2();
     } else {
       setDisplayNone();
@@ -104,12 +109,14 @@ document.addEventListener("DOMContentLoaded", function() {
     }
   }, false);
 
-  infosBtn52.addEventListener("click", resetDisplay, false);
+  infosBtn52.addEventListener("click", function() {
+    window.setTimeout(resetDisplay, 300);
+  }, false);
 
   // infosBtn6 click
   infosBtn6.addEventListener("click", function() {
     if (displayCards) {
-      resetDisplay();
+      window.setTimeout(resetDisplay, 300);
       resetOpacity2();
     } else {
       setDisplayNone();
@@ -117,12 +124,14 @@ document.addEventListener("DOMContentLoaded", function() {
     }
   }, false);
 
-  infosBtn62.addEventListener("click", resetDisplay, false);
+  infosBtn62.addEventListener("click", function() {
+    window.setTimeout(resetDisplay, 300);
+  }, false);
 
   // infosBtn7 click
   infosBtn7.addEventListener("click", function() {
     if (displayCards) {
-      resetDisplay();
+      window.setTimeout(resetDisplay, 300);
       resetOpacity2();
     } else {
       setDisplayNone();
@@ -130,5 +139,7 @@ document.addEventListener("DOMContentLoaded", function() {
     }
   }, false);
 
-  infosBtn72.addEventListener("click", resetDisplay, false);
+  infosBtn72.addEventListener("click", function() {
+    window.setTimeout(resetDisplay, 300);
+  }, false);
 }, false);
