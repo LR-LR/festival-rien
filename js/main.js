@@ -90,7 +90,7 @@ let accordionRight = document.getElementById("accordion-right");
 
 
 // Functions
-function setTransparency2(){
+function setTransparency2() {
   infosBtn1.style.opacity = transparency;
   infosBtn2.style.opacity = transparency;
   infosBtn3.style.opacity = transparency;
@@ -114,7 +114,7 @@ function resetOpacity2() {
   infosBackBtn.style.opacity = "1";
 };
 
-function setDisplayNone(){
+function setDisplayNone() {
   divBtn1.style.display = "none";
   divBtn2.style.display = "none";
   divBtn3.style.display = "none";
@@ -130,7 +130,7 @@ function setDisplayNone(){
   displayCards = true;
 };
 
-function resetDisplay(){
+function resetDisplay() {
   divBtn1.style.display = "inherit";
   divBtn2.style.display = "inherit";
   divBtn3.style.display = "inherit";

@@ -2,7 +2,7 @@
 
 document.addEventListener("DOMContentLoaded", function() {
   // Events
-  
+
   // HOVERS
   // infosBtn1 hover
   infosBtn1.addEventListener("mouseenter", function() {

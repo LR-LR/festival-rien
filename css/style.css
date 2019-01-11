@@ -4,7 +4,7 @@
   src: url('../font/cour.ttf');
 }
 
-body, .card, .form-control, .form-control:focus, .form-group button, .form-group button:hover, .form-group button:active{
+body, .card, .form-control, .form-control:focus, .form-group button, .form-group button:hover, .form-group button:active {
   background-color: black;
   color: #707070;
   font-family: 'Courier New';
@@ -35,12 +35,10 @@ div .card-header {
   height: 40px;
 }
 
-
 /* INDEX */
 #index-title {
   font-size: 100px;
 }
-
 
 /* DAYS */
 #day-title {
@@ -48,12 +46,24 @@ div .card-header {
   font-size: 2.3rem;
 }
 
-
 /* INFOS */
-.form-control, .form-control:focus, .form-group button, .form-group button:hover, .form-group button:active{
+.form-control, .form-control:focus, .form-group button, .form-group button:hover, .form-group button:active {
   border: 1px solid #707070;
 }
 
-.form-control:focus, .form-group button:focus{
+.form-control:focus, .form-group button:focus {
   box-shadow: none;
+}
+
+#access-card {
+  -webkit-filter: invert(100%);
+  filter: invert(100%);
+}
+
+#access-card iframe {
+  -webkit-filter: grayscale(1);
+  filter: grayscale(1);
+  border: 0;
+  width: 100%;
+  height: 300px;
 }

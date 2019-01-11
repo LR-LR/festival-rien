@@ -2,7 +2,7 @@
 
 document.addEventListener("DOMContentLoaded", function() {
   // Events
-  
+
   // indexNav1 hover
   indexNav1.addEventListener("mouseenter", function() {
     setTransparency();
